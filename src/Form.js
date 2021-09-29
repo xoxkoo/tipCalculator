@@ -33,7 +33,7 @@ export default class Form {
   }
 
   validate() {
-     return this.bill.value && this.people.value && this.service.value
+     return this.bill.value && this.people.value && this.service.value && this.people.value !== 0 && this.bill.value !== 0
   }
 
 }
