@@ -12,7 +12,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
 
   const ticket = form.calculate().toFixed(2)
 
-  result.innerHTML = `Your bill is ${ticket} €`
+  result.innerHTML = `Your bill is ${ticket}€`
   
   result.classList.add('animation')
   result.classList.add('an')
