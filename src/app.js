@@ -1,4 +1,4 @@
-import '../sass/base.sass'
+import '../css/base.sass'
 
 import Form from './Form.js'
 
