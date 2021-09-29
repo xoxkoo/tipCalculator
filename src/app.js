@@ -7,7 +7,7 @@ const input = document.querySelector('input[name=bill]'),
 
 const form = new Form(document.querySelector('form'))
 
-formular.addEventListener('submit', (e) => {
+document.querySelector('form').addEventListener('submit', (e) => {
   e.preventDefault()
 
   const ticket = form.calculate().toFixed(2)
